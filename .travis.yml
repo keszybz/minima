@@ -3,7 +3,7 @@ sudo: false
 dist: bionic
 
 install:
-- pip3 install pytest-cov codecov coveralls
+- python3 -m pip install pytest-cov codecov coveralls
 
 # tests
 script:
