@@ -7,3 +7,10 @@ def minima(arr):
             ans.append(i)
 
     return ans
+
+class Fake:
+    def __init__(self):
+        pass
+
+    def func(self, x, y):
+        return x + y

@@ -5,7 +5,7 @@ python:
   - "3.7"
 
 install:
-  - python -m pip install pytest-cov codecov coveralls
+  - python -m pip install pytest-cov codecov coveralls PyYAML
 
 # tests
 script:
