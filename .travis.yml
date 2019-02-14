@@ -9,7 +9,7 @@ install:
 
 # tests
 script:
-  - python -m pytest -v
+  - python -m pytest -v --cov=minima
 
 after_success:
 - codecov
