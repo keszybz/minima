@@ -1,1 +1,8 @@
 language: python
+sudo: false
+dist: bionic
+
+# tests
+script:
+- >
+    python -m pytest -v
