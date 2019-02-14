@@ -1,15 +1,15 @@
 language: python
 sudo: false
 dist: bionic
+python:
+  - "3.7"
 
 install:
-- python3 -m ensurepip
-- python3 -m pip install pytest-cov codecov coveralls
+  - python -m pip install pytest-cov codecov coveralls
 
 # tests
 script:
-- >
-    python3 -m pytest -v
+  - python -m pytest -v
 
 after_success:
 - codecov
